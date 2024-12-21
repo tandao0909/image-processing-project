@@ -8,8 +8,6 @@ import random
 PARENT_DIRNAME = os.path.expanduser("~/image-processing-project/")
 IMAGE_DIR = os.path.join(PARENT_DIRNAME, "data/img_align_celeba/")
 
-# IMAGE_DIR = "/kaggle/input/imageceleba/img_align_celeba"
-
 class TripletDataset(Dataset):
     """
     TripletDataset is a custom PyTorch Dataset designed for loading and managing triplet data 
